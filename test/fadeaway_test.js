@@ -6,4 +6,4 @@ var elements = [document.getElementById('a'),
                 document.getElementById('b'),
                 document.getElementById('c'),
                 document.getElementById('d')];
-fadeAway(elements, {begin:0});
+fadeAway(elements, {begin:0, easing:'easeInQuad'});
